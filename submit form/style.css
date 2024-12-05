@@ -1,0 +1,29 @@
+body{
+    background-color: darkblue;
+    padding:6px;
+}
+
+.container {
+    background-color: white;
+    width:40%;
+ 
+    padding: 20px;
+    align-items: center;
+}
+
+.input{
+       
+}
+
+h5{
+  margin-bottom: 30px; 
+  text-align: center; 
+}
+
+.checked{
+    display: inline;
+}
+
+.nameErr, .emailErr, .phoneErr, .pwdErr, .checkErr, .radioErr{
+    color:red;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h5><b>Submit Form</b></h5>
+        <form>
+            <div class="input">
+                <input type="text" class="form-control" id="name" style="height: 40px;" placeholder="Name">
+                <div class="nameErr mb-5"></div>
+                <input type="email" class="form-control" id="email" style="height: 40px; " placeholder="Email">
+                <div class="emailErr mb-5"></div>
+                <input type="text" class="form-control" id="phone" style="height: 40px; " placeholder="Phone">
+                <div class="phoneErr mb-5"></div>
+                <input type="password" class="form-control" id="pwd" style="height: 40px;" placeholder="password">
+                <div class="pwdErr mb-1"></div>
+
+
+                <div class="show-pwd mb-5">
+                    <input class="form-check-input showpwd" type="checkbox">
+                    <label class="form-check-label">
+                        show password
+                    </label><br>
+                </div>
+            </div>
+
+
+            <div class="checked">
+                <span>Which software do you requiers?</span><br>
+                <input class="form-check-input check" type="checkbox" name="checkbox" value="A">
+                <label class="form-check-label">
+                    A
+                </label><br>
+                <input class="form-check-input check" type="checkbox" value="B">
+                <label class="form-check-label">
+                    B
+                </label><br>
+                <input class="form-check-input check" type="checkbox" value="C">
+                <label class="form-check-label">
+                    C
+                </label>
+            </div>
+            <div class="checkErr mt-1"></div>
+
+            <div class="radio mt-5">
+                <span>How urgently do you need it?</span><br>
+                <input type="radio" name="radio" class="Validate" value="one">
+                <label for="age1">one</label><br>
+                <input type="radio" name="radio" class="Validate" value="two">
+                <label for="age2">two</label><br>
+                <input type="radio" name="radio" class="Validate" value="three">
+                <label for="age3">Three</label>
+
+            </div>
+            <div class="radioErr"></div>
+            <button type="button" class="btn btn-primary  mt-3" id="submit">submit</button>
+    </div>
+    </form>
+
+    <script src="submit.js"></script>
+</body>
+
+</html>
